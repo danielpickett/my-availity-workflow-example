@@ -36,6 +36,8 @@
     "core-js": "3.19.3"
   },
   "dependencies": {
+    "@availity/analytics": "^1.4.1",
+    "@availity/analytics-core": "^3.1.8",
     "@availity/api-axios": "^6.0.6",
     "@availity/form": "^1.2.3",
     "@availity/hooks": "^3.0.2",

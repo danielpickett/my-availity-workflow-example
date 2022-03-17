@@ -2,6 +2,23 @@
 # yarn lockfile v1
 
 
+"@availity/analytics-core@^3.1.5", "@availity/analytics-core@^3.1.8":
+  version "3.1.8"
+  resolved "https://registry.yarnpkg.com/@availity/analytics-core/-/analytics-core-3.1.8.tgz#081a029531f1b5b5219694d9754f5b338ba992b0"
+  integrity sha512-T5fBbyJJeVsVE9Xe9Ch1P4bd1cMDw12fkaqN+XSfiHIQL4mv54djNtNwuOkmWWwMChVDQ+rVy2WewpVjGYnMEA==
+  dependencies:
+    "@babel/runtime" "^7.16.5"
+    core-js "^3.12.1"
+    yup "^0.32.9"
+
+"@availity/analytics@^1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@availity/analytics/-/analytics-1.4.1.tgz#8a91f77de3a9a82eb4a7b328461080c17035e8ce"
+  integrity sha512-NtPBF2pA7lxnB1lP8uzR0og2rh7eQ1Csg7tgYzBO7Xf1vlQrHm73AI4ag3A6qjhaFesJbdmdrGs1UEovSNM3bQ==
+  dependencies:
+    "@availity/analytics-core" "^3.1.5"
+    prop-types "^15.7.2"
+
 "@availity/api-axios@^6.0.6":
   version "6.0.6"
   resolved "https://registry.yarnpkg.com/@availity/api-axios/-/api-axios-6.0.6.tgz#0ec7c72ac234f58672eab2344b310b684c887fb0"
@@ -9823,7 +9840,7 @@ yocto-queue@^0.1.0:
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-0.1.0.tgz#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 
-yup@^0.32.11:
+yup@^0.32.11, yup@^0.32.9:
   version "0.32.11"
   resolved "https://registry.yarnpkg.com/yup/-/yup-0.32.11.tgz#d67fb83eefa4698607982e63f7ca4c5ed3cf18c5"
   integrity sha512-Z2Fe1bn+eLstG8DRR6FTavGD+MeAwyfmouhHsIUgaADz8jvFKbO/fXc2trJKZg+5EBjh4gGm3iU/t3onKlXHIg==

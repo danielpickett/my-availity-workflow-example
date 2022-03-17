@@ -9,14 +9,14 @@ import Request from './Request';
 import Response from './Response';
 import { Footer } from './components';
 
-const App = (): JSX.Element => {
+const OriginalApp = (): JSX.Element => {
   const { search } = useLocation();
 
   const spaceId = useMemo(() => qs.parse(search).spaceId, [search]);
 
   return (
     <Spaces spaceIds={[spaceId]} clientId="test">
-      <Container data-testid="app-container" id="app-container">
+      <Container data-testid="original-app-container" id="original-app-container">
         <PageHeader spaceId={spaceId} appName="Appeal Request Form" />
         <Routes>
           <Route path="/" element={<Request />} />
@@ -28,4 +28,4 @@ const App = (): JSX.Element => {
   );
 };
 
-export default App;
+export default OriginalApp;
