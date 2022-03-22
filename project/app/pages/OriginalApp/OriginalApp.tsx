@@ -9,7 +9,7 @@ import Request from './Request';
 import Response from './Response';
 import { Footer } from './components';
 
-const OriginalApp = (): JSX.Element => {
+const App = (): JSX.Element => {
   const { search } = useLocation();
 
   const spaceId = useMemo(() => qs.parse(search).spaceId, [search]);
@@ -28,4 +28,4 @@ const OriginalApp = (): JSX.Element => {
   );
 };
 
-export default OriginalApp;
+export default App;
